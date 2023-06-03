@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import streamlit as st
-st.markdown("<h1 id='soft_name' style='text-align: center; color: #c06300; font-size: 40px ; text-decoration: underline;'>Spam Mail Detector</h1><br>", unsafe_allow_html=True)
+st.markdown("<h1 id='soft_name' style='text-align: center; color: #c06300; font-size: 40px ; text-decoration: underline;'>SpamXSpotter</h1><br>", unsafe_allow_html=True)
 loaded_model = open("model.pkl", "rb")
 classifier = pickle.load(loaded_model)
 
